@@ -1,76 +1,66 @@
 /* CSS Reset */
-body {
-    font-family: 'Baloo Bhai';
+body{
+    font-family: 'Baloo Bhai'; 
     font-size: 10px;
     color: white;
-    margin: 0;
-    padding: 0;
-    background: url('img/athlete-1-jpg.jpg') no-repeat center center/cover;
-    min-height: 100vh; /* Ensure the background covers full height of viewport */
-    background-attachment: fixed; /* Keep background fixed while scrolling */
-    overflow-x: hidden;
+    margin: 0px;
+    padding: 0px;
+    background: url('img/athlete-1-jpg.jpg');
 }
 
-@media (max-width: 600px) {
-    body {
-        background: url('img/athlete-1-small.jpg') no-repeat center center/cover;
-        background-size: cover; /* Ensures image fits mobile view */
-    }
-}
-
-.left {
+.left{
     display: inline-block;
     position: absolute;
     left: 40px;
     top: 22px;
 }
 
-.left img {
+.left img{
     width: 65px;
 }
 
-.left div {
+.left div{
     line-height: 19px;
     text-align: center;
 }
 
-.mid {
+.mid{
     display: block;
     width: 450px;
     margin: 20px auto;
 }
 
-.right {
+.right{
     position: absolute;
     right: 28px;
     top: 23px;
     display: inline-block;
 }
 
-.navbar {
+.navbar{
     display: inline-block;
 }
 
-.navbar li {
+.navbar li{
     display: inline-block;
     font-size: 17px;
 }
 
-.navbar li a {
+.navbar li a{
     color: white;
     text-decoration: none;
     padding: 34px 11px;
 }
 
-.navbar li a:hover, .navbar li a.active {
+.navbar li a:hover, .navbar li a.active{
     text-decoration: underline;
     color: rgb(209, 203, 203);
 }
 
-.btn {
+.btn{
     font-family: 'Baloo Bhai';
     font-size: 13px;
-    margin: 0 6px;
+    margin: 0px 6px;
     background-color: black;
     color: white;
     padding: 4px 14px;
@@ -79,57 +69,55 @@ body {
     cursor: pointer;
 }
 
-.btn:hover {
+.btn:hover{
     background-color: rgb(36, 30, 30);
 }
 
-.container {
-    margin: 60px auto;
+.container{
+    margin: 60px 85px;
     padding: 70px;
     width: 33%;
     border-radius: 28px;
-    background-color: rgba(0, 0, 0, 0.6); /* Background added for visibility */
 }
 
-.form-group input {
+.form-group input{
     font-family: 'Baloo Bhai';
     font-size: 13px;
     text-align: center;
     display: block;
-    width: 100%;
-    padding: 10px;
+    width: 400px;
+    padding: 0px;
     border: 2px solid black;
-    margin: 2% auto;
+    margin: 2% auto; 
     font-size: 20px;
     border-radius: 8px;
 }
 
-.container h1 {
+.container h1{
     text-align: center;
 }
 
-.container button {
+.container button{
     display: block;
-    width: 100%;
+    width: 403px;
     margin: 14px auto;
-    padding: 10px;
 }
+
+z
 
 .footer-bottom {
     text-align: center;
     font-size: 15px;
-    margin-top: 10px;
 }
 
 /* Responsive CSS starts here */
 
 /* Mobile screens (max-width: 600px) */
 @media (max-width: 600px) {
-
     .left, .right {
         position: static;
         text-align: center;
-        margin-bottom: 50px;
+        margin-bottom: 10px;
     }
 
     .navbar {
@@ -159,7 +147,6 @@ body {
 
     .container button {
         width: 100%;
-        padding: 10px;
     }
 }
 
@@ -180,26 +167,5 @@ body {
 
     .container button {
         width: 80%;
-        padding: 12px;
-    }
-}
-
-/* Desktop (min-width: 769px) */
-@media (min-width: 769px) {
-    .mid {
-        width: 50%;
-    }
-
-    .container {
-        width: 40%;
-    }
-
-    .form-group input {
-        width: 100%;
-    }
-
-    .container button {
-        width: 100%;
-        padding: 14px;
     }
 }
