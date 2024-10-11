@@ -6,8 +6,11 @@ body {
     margin: 0;
     padding: 0;
     background: url('img/athlete-1-jpg.jpg') no-repeat center center/cover;
-    overflow-x: hidden; /* Prevent horizontal scroll */
+    min-height: 100vh; /* Ensure the background covers full height of viewport */
+    background-attachment: fixed; /* Keep background fixed while scrolling */
+    overflow-x: hidden;
 }
+
 
 .left {
     display: inline-block;
@@ -116,6 +119,14 @@ body {
 
 /* Mobile screens (max-width: 600px) */
 @media (max-width: 600px) {
+
+    @media (max-width: 600px) {
+        body {
+            background: url('img/athlete-1-small.jpg') no-repeat center center/cover;
+            background-size: cover; /* Ensures image fits mobile view */
+        }
+    }
+
     .left, .right {
         position: static;
         text-align: center;
