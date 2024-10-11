@@ -116,7 +116,7 @@ body{
     .left, .right {
         position: static;
         text-align: center;
-        margin-bottom: 1000px;
+        margin-bottom: 100px;
     }
 
     .navbar {
