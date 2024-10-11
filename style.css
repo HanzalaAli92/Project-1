@@ -112,6 +112,6 @@ z
 
 @media (max-width: 600px) {
     body{
-        color: red ;
+        width: 600px ;
     }
 }
