@@ -110,7 +110,7 @@ z
     font-size: 15px;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 900px) {
     body{
         width: 900px ;
     }
