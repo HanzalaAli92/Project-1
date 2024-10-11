@@ -1,0 +1,164 @@
+/* CSS Reset */
+body{
+    font-family: 'Baloo Bhai'; 
+    font-size: 10px;
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    background: url('img/athlete-1-jpg.jpg');
+}
+
+.left{
+    display: inline-block;
+    position: absolute;
+    left: 40px;
+    top: 22px;
+}
+
+.left img{
+    width: 65px;
+}
+
+.left div{
+    line-height: 19px;
+    text-align: center;
+}
+
+.mid{
+    display: block;
+    width: 450px;
+    margin: 20px auto;
+}
+
+.right{
+    position: absolute;
+    right: 28px;
+    top: 23px;
+    display: inline-block;
+}
+
+.navbar{
+    display: inline-block;
+}
+
+.navbar li{
+    display: inline-block;
+    font-size: 17px;
+}
+
+.navbar li a{
+    color: white;
+    text-decoration: none;
+    padding: 34px 11px;
+}
+
+.navbar li a:hover, .navbar li a.active{
+    text-decoration: underline;
+    color: rgb(209, 203, 203);
+}
+
+.btn{
+    font-family: 'Baloo Bhai';
+    font-size: 13px;
+    margin: 0px 6px;
+    background-color: black;
+    color: white;
+    padding: 4px 14px;
+    border: 2px solid grey;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color: rgb(36, 30, 30);
+}
+
+.container{
+    margin: 60px 85px;
+    padding: 70px;
+    width: 33%;
+    border-radius: 28px;
+}
+
+.form-group input{
+    font-family: 'Baloo Bhai';
+    font-size: 13px;
+    text-align: center;
+    display: block;
+    width: 400px;
+    padding: 0px;
+    border: 2px solid black;
+    margin: 2% auto; 
+    font-size: 20px;
+    border-radius: 8px;
+}
+
+.container h1{
+    text-align: center;
+}
+
+.container button{
+    display: block;
+    width: 403px;
+    margin: 14px auto;
+}
+
+/* Responsive CSS starts here */
+
+/* Mobile screens (max-width: 600px) */
+@media (max-width: 600px) {
+    .left, .right {
+        position: static;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    .navbar {
+        display: block;
+        text-align: center;
+    }
+
+    .navbar li {
+        display: block;
+        margin: 5px 0;
+    }
+
+    .mid {
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    .container {
+        width: 90%;
+        padding: 30px;
+    }
+
+    .form-group input {
+        width: 100%;
+        font-size: 16px;
+    }
+
+    .container button {
+        width: 100%;
+    }
+}
+
+/* Tablet screens (min-width: 601px and max-width: 768px) */
+@media (min-width: 601px) and (max-width: 768px) {
+    .mid {
+        width: 80%;
+    }
+
+    .container {
+        width: 70%;
+    }
+
+    .form-group input {
+        width: 80%;
+        font-size: 18px;
+    }
+
+    .container button {
+        width: 80%;
+    }
+}
