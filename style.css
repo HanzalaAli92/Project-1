@@ -11,6 +11,12 @@ body {
     overflow-x: hidden;
 }
 
+@media (max-width: 600px) {
+    body {
+        background: url('img/athlete-1-small.jpg') no-repeat center center/cover;
+        background-size: cover; /* Ensures image fits mobile view */
+    }
+}
 
 .left {
     display: inline-block;
@@ -119,13 +125,6 @@ body {
 
 /* Mobile screens (max-width: 600px) */
 @media (max-width: 600px) {
-
-    @media (max-width: 600px) {
-        body {
-            background: url('img/athlete-1-small.jpg') no-repeat center center/cover;
-            background-size: cover; /* Ensures image fits mobile view */
-        }
-    }
 
     .left, .right {
         position: static;
