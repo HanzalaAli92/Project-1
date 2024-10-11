@@ -110,9 +110,11 @@ z
     font-size: 15px;
 }
 
-@media (max-width: 400px) {
+@media screen {
+    
+ 
     body{
-        width: 400px ;
-        height: 800px;
+        max-width: 400px ;
+        
     }
 }
