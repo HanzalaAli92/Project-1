@@ -113,7 +113,7 @@ body{
     body {
     background: url('img/athlete-1-jpg.jpg');
     display: flex;
-    width: 100vh;
-    height: 100vh;
+    width: 50vh;
+    height: 50vh;
     }
 }
