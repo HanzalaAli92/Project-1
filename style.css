@@ -111,8 +111,6 @@ body{
 @media only screen and (max-width: 1000px) {
 
     body {
-      background-color: aqua;
-
-    /* background: url('img/athlete-1-jpg.jpg'); */
+    background: url('img/athlete-1-jpg.jpg');
     }
 }
