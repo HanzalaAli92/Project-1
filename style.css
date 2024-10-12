@@ -108,7 +108,7 @@ body{
     font-size: 15px;
 }
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 400px) {
 
     body {
     background: url('img/athlete-1-jpg.jpg');
